@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ruibo Zhang | Personal Homepage</title>
+  <meta name="description" content="Personal homepage of Ruibu Zhang / 章锐步." />
+  <style>
+    :root {
+      --bg: #f7f7f8;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 56px 20px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 36px;
+      box-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 2.4rem;
+      line-height: 1.15;
+    }
+
+    h2 {
+      margin-top: 32px;
+      margin-bottom: 10px;
+      font-size: 1.15rem;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 1.05rem;
+      margin-bottom: 22px;
+    }
+
+    .info-list {
+      display: grid;
+      grid-template-columns: 120px 1fr;
+      gap: 8px 18px;
+      margin: 20px 0 0;
+    }
+
+    .label {
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    .tag {
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 6px 12px;
+      background: #fafafa;
+      color: #374151;
+      font-size: 0.92rem;
+    }
+
+    footer {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 26px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .info-list {
+        grid-template-columns: 1fr;
+        gap: 4px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <h1>Ruibu Zhang</h1>
+      <p class="subtitle">章锐步 · Personal Homepage</p>
+
+      <p>
+        I am interested in machine learning, multimodal learning, and large language model quantization.
+      </p>
+
+      <div class="info-list">
+        <div class="label">Name</div>
+        <div>Ruibu Zhang / 章锐步</div>
+
+        <div class="label">Email</div>
+        <div><a href="mailto:riverzhang1118@gmail.com">riverzhang1118@gmail.com</a></div>
+
+        <div class="label">Affiliation</div>
+        <div>Student Researcher</div>
+
+        <div class="label">GitHub</div>
+        <div><a href="https://github.com/Zrb3786">https://github.com/Zrb3786</a></div>
+      </div>
+
+      <h2>Research Interests</h2>
+      <div class="tags">
+        <span class="tag">Machine Learning</span>
+        <span class="tag">Multimodal Learning</span>
+        <span class="tag">Large Language Models</span>
+        <span class="tag">Model Quantization</span>
+      </div>
+
+      <h2>About</h2>
+      <p>
+        This page is used as a public academic profile and identity verification page.
+      </p>
+    </section>
+
+    <footer>
+      Last updated: 2026
+    </footer>
+  </main>
+</body>
+</html>
